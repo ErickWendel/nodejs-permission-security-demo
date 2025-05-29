@@ -1,3 +1,4 @@
 https://www.npmjs.com/package/javascript-obfuscator
 https://whatthecommit.com/99497acc23397313780de37e0ee00de6
 https://nodejs.org/api/permissions.html
+https://github.com/lirantal/lockfile-lint
