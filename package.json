@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:restricted": "node --permission src/index.js",
+    "start:restricted": "node --permission --allow-fs-read=$(pwd)/src src/index.js",
     "start:unsafe-unrestricted": "./node-permission.sh",
     "start:unsafe": "node src/index.js",
     "dev": "node --watch src/index.js"
